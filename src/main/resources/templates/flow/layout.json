@@ -1,0 +1,12 @@
+[
+  {
+    "layout": "mxHierarchicalLayout",
+    "config": {
+      "orientation": "north",
+      "intraCellSpacing": 60,
+      "interRankCellSpacing": 60,
+      "interHierarchySpacing": 60,
+      "parallelEdgeSpacing": 10
+    }
+  }
+]

@@ -1,0 +1,11 @@
+comment:
+    shape: %shape%
+    rounded: 1
+    whiteSpace: wrap
+    html: 1
+    labelBackgroundColor: none;
+    fontColor: #006600;
+    fillColor: none;
+    strokeColor: none;
+normal:
+

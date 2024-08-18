@@ -1,0 +1,118 @@
+normal {
+    shape: var(--shape);
+    fillColor: #ffffff;
+    strokeColor: #000000;
+    html: 1;
+    whiteSpace: wrap;
+}
+
+comment {
+    shape: var(--shape);
+    rounded: 1;
+    whiteSpace: wrap;
+    html: 1;
+    labelBackgroundColor: none;
+    fontColor: #006600;
+    fillColor: none;
+    strokeColor: none;
+}
+
+if {
+    shape: rhombus;
+    fillColor: #fff2cc;
+    strokeColor: #d6b656;
+    html: 1;
+    whiteSpace: wrap;
+}
+
+catch {
+    shape: parallelogram;
+    perimeter: parallelogramPerimeter;
+    whiteSpace: wrap;
+    html: 1;
+    fontColor: #CC0000;
+    fillColor: none;
+}
+
+try {
+    shape: offPageConnector;
+    whiteSpace: wrap;
+    html: 1;
+    strokeColor: #b46504;
+    fillColor: #fad7ac;
+}
+
+return {
+    shape: rectangle;
+    fillColor: #f8cecc;
+    strokeColor: #b85450;
+    html: 1;
+    whiteSpace: wrap;
+    rounded: 1;
+}
+
+r_yes {
+    edgeStyle: none;
+    rounded: 0;
+    orthogonalLoop: 1;
+    jettySize: auto;
+    html: 1;
+    noEdgeStyle: 1;
+    orthogonal: 1;
+    fillColor: #60a917;
+    strokeColor: #2D7600;
+    fontColor: #009900;
+}
+
+r_no {
+    edgeStyle: none;
+    rounded: 0;
+    orthogonalLoop: 1;
+    jettySize: auto;
+    html: 1;
+    fillColor: #e51400;
+    strokeColor: #B20000;
+    fontColor: #CC0000;
+}
+
+r_next {
+    edgeStyle: none;
+    rounded: 0;
+    orthogonalLoop: 1;
+    jettySize: auto;
+    html: 1;
+}
+
+/*关联节点，如：try--end try*/
+r_union {
+    edgeStyle: orthogonalEdgeStyle;
+    rounded: 0;
+    orthogonalLoop: 1;
+    jettySize: auto;
+    html: 1;
+    curved: 1;
+    dashed: 1;
+    endArrow: none;
+    endFill: 0;
+    strokeColor: #808080;
+}
+
+r_tips {
+    rounded: 0;
+    orthogonalLoop: 1;
+    jettySize: auto;
+    html: 1;
+    endArrow: none;
+    endFill: 0;
+    fontColor: #000000;
+    strokeColor: #006600;
+}
+
+r_normal {
+    edgeStyle: none;
+    rounded: 0;
+    orthogonalLoop: 1;
+    jettySize: auto;
+    html: 1;
+}
+

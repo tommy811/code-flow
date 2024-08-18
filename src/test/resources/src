@@ -1,0 +1,16 @@
+synchronized (mbd.postProcessingLock) {
+			if (!mbd.postProcessed) {
+			return null;
+				try {
+					applyMergedBeanDefinitionPostProcessors(mbd, beanType, beanName);
+				}
+				catch (Exception ex) {
+                    ex.print();
+                }
+				catch (Throwable ex) {
+					throw new BeanCreationException(mbd.getResourceDescription(), beanName,
+							"Post-processing of merged bean definition failed", ex);
+				}
+				mbd.postProcessed = true;
+			}
+}
